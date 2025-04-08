@@ -21,3 +21,9 @@ Route::get('/modal', function () {
 Route::get('/index', function () {
     return view('index');
 });
+
+Route::get('/products', function () {
+    return view('products');
+});
+
+// Route::get('/products', \App\Livewire\ProductCrud::class);
